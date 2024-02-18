@@ -2,7 +2,7 @@ package java_assignment;
 import java.util.Scanner;
 public class AllowedBook {
                    static String Name1;
-                   static String Name2;2
+                   static String Name2;
                    static String Name3;
 static int nbrOfBook;
     public static void main(String[] args) {
