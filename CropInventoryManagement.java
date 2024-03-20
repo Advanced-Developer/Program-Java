@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class CropInventoryManagement {
-    private static int MAX_CROPS = 100;
+    private static int MAX_CROPS = 200;
     private String[] cropNames = new String[MAX_CROPS];
     private int[] cropQuantities = new int[MAX_CROPS];
     private int cropCount = 0;
@@ -13,7 +13,7 @@ public class CropInventoryManagement {
         while (!exit) {
             System.out.println("\nCrop Inventory Management System");
             System.out.println("1. Add New Crop");
-            System.out.println("2. Update Crop Quantity");
+            System.out.println("2. Updates Crop Quantity");
             System.out.println("3. View Current Inventory");
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
@@ -54,7 +54,7 @@ public class CropInventoryManagement {
             cropCount++;
             System.out.println("Crop added successfully.");
         } else {
-            System.out.println("Maximum number of crops reached. Cannot add more.");
+            System.out.println("Maximum number of crops reached. you Can not add more.");
         }
     }
 
